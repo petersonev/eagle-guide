@@ -34,18 +34,16 @@ A printed circuit board (PCB) is used to mechanically support and electrically c
 In its most basic form a PCB consists of a center substrate (typically fr4) with a layer of copper traces on the bottom and top. Pads are portions of the copper layer that are in specific shapes so a component can be soldered to it.
 
 \subsection{Eagle Intro}
-
-This document is meant to serve as a guide through the entire process of PCB creation, starting from nothing and working towards a completed board design ready to be ordered. \par
 Eagle is a CAD tool used to design printed circuit boards (PCBs). The program is split up into three sections which build upon one another to result in files that are sent to a PCB manufacturer.\par
 First all parts to go on the board are created in libraries which describe the pins on the part and the footprint of the part for when it is soldered to the board. Then these parts are used in the Schematic design which describes the electrical connections on the board. Then the board is laid out by following the parts and connections made in the schematic to place parts on the physical board then route where the physical connections will go between parts.
 \begin{tcolorbox} [title=Tips \& Tricks]
     \begin{itemize}
         \item Everything in Eagle can be done through clicking buttons or by using its command line. Design can be done much quicker by learning to use the command line.
-        \item In order to use some Eagle functions like creating new files or adjusting some settings you must switch back to Eagle's Control Panel window
+        \item In order to use some Eagle functions such as creating new files or adjusting certain settings you must switch back to Eagle's Control Panel window
     \end{itemize}
 \end{tcolorbox}
 
-\subsection{Installation}
+\subsection{Eagle Installation}
 \begin{enumerate}
     \item Download at \url{www.autodesk.com/products/eagle}
     \item Install Eagle using free or educational version
